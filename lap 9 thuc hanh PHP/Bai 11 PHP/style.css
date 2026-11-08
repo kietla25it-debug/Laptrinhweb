@@ -1,0 +1,36 @@
+body { 
+    background-color: #f4f6f9; 
+    font-family: 'Nunito', sans-serif; 
+}
+
+.card { 
+    border: none; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+}
+
+.table-hover tbody tr:hover { 
+    background-color: #f1f2f6; 
+    transition: 0.3s; 
+}
+.badge-id { 
+    background: linear-gradient(45deg, #6c5ce7, #a29bfe); 
+    font-size: 14px; 
+    padding: 6px 12px; 
+}
+
+.form-container { 
+    max-width: 550px; 
+    margin: 50px auto; 
+}
+.btn-custom { 
+    background: linear-gradient(45deg, #6c5ce7, #81ecec); 
+    border: none; 
+    color: white; 
+    transition: 0.3s; 
+}
+.btn-custom:hover { 
+    opacity: 0.9; 
+    transform: translateY(-2px); 
+    color: white; 
+}
